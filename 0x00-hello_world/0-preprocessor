@@ -1,0 +1,9 @@
+#!/bin/bash
+# Get the C file name from the command line argument
+CFILE=$1
+
+# Get the base name of the C file without the extension
+BASENAME=$(basename "$CFILE" .c)
+
+#Compile the C file but do not linl
+gcc -c "$CFILE" -o "$BASENAME".o

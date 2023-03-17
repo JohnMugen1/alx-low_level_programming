@@ -15,12 +15,12 @@ int main(void)
 	/* if number n is greater than zero */
 	if (n > 0)
 	{
-		printf("%.2d is positive\n", n);
+		printf("%d is positive\n", n);
 	}
 	/* if number is 0 */
 	if (n == 0)
 	{
-		printf("%.2d is zero\n", n);
+		printf("%d is zero \n", n);
 	}
 	/* if number is less than 0 */
 	if (n < 0)

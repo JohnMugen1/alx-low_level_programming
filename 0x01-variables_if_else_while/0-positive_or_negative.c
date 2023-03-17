@@ -3,7 +3,10 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
+/*
+ * The code for the function main goes here
+ * Return: 0 (success)
+ */
 int main(void)
 {
 	int n;
@@ -20,7 +23,7 @@ int main(void)
 	/* if number is 0 */
 	if (n == 0)
 	{
-		printf("%d is zero \n", n);
+		printf("%d is  zero\n", n);
 	}
 	/* if number is less than 0 */
 	if (n < 0)

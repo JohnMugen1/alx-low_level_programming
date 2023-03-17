@@ -12,24 +12,22 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	/* output the random number */
-	printf("%d", n);
-	/*
-	 * Checking the value n using if..else..statement
-	 * If value n is greater than zero,then it is positive
-	 */
+	printf("%d ", n);
+	/* if number n is greater than zero */
 	if (n > 0)
 	{
 		printf("is positive");
 	}
-	/* When value n is less than 0,then it is negative number */
-	else if (n < 0)
-	{
-		printf("is negative");
-	}
-	/* Otherwise the value n is zero */
-	else
+	/* if number is 0 */
+	if (n == 0)
 	{
 		printf("is zero");
 	}
+	/* if number is less than 0 */
+	if (n < 0)
+	{
+		printf("is negative");
+	}
+
 	return (0);
 }

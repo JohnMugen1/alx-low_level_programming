@@ -9,14 +9,16 @@
  */
 int main(void)
 {
-	int n;
+	int lastDigit = 98;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* get the number last digit */
+	/* srand(time(0));
+	*n = rand() - RAND_MAX / 2;
+	* get the number last digit 
 	int lastDigit = n % 10;
-	/* displaying out the number results */
-	printf("Last digit of %d is %d ", n, lastDigit);
+	* displaying out the number results
+	 *	
+	*printf("Last digit of %d is %d ", n, lastDigit);
+	*/
 	if (lastDigit < 6 && lastDigit != 0)
 	{
 		printf("and is less than 6 and not 0");

@@ -11,14 +11,7 @@ int main(void)
 	for (num = 0; num <= 9; num++)
 	{
 		putchar(num + '0');
-		if (num == 9)
-		{
-			putchar('$');
-		}
-		else
-		{
-			putchar(',');
-		}
+		putchar(',');
 		putchar(' ');
 	}
 	putchar('\n');

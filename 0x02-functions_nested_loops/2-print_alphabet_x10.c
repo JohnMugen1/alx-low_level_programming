@@ -6,13 +6,15 @@
 void print_alphabet_x10(void)
 {
 	/* local variable initialization */
-	int i = 0;
+	int i;
+	char ch;
+
+	i = 0;
 
 	/* use nested while loop */
 	while (i <= 10)
 	{
-		/* local variable initialization */
-		char ch = 'a';
+		ch = 'a';
 
 		while (ch <= 'z')
 		{

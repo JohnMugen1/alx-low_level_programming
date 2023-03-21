@@ -1,18 +1,6 @@
 #include "main.h"
-/**
- * print_alphabet - print all alphabet in lowercase
- */
-void print_alphabet(void)
-{
-	/* local variable declaration */
-	char ch;
-	/* using for loop */
-	for (ch = 'a'; ch <= 'z'; ch++)
-	{
-		_putchar(ch);
-	}
-	_putchar('\n');
-}
+/* function prototype */
+void print_alphabet(void);
 /**
  * main - Calls function that prints the alphabet
  *
@@ -23,4 +11,17 @@ int main(void)
 	/* function call */
 	print_alphabet();
 	return (0);
+}
+/**
+ * print_alphabet - print all alphabet in lowercase
+ */
+void print_alphabet(void)
+{
+	char ch;
+
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		_putchar(ch);
+	}
+	_putchar('\n');
 }

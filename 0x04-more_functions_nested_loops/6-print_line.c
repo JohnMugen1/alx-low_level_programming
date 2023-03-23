@@ -10,6 +10,8 @@ void print_line(int n)
 	{
 		_putchar('\n');
 	}
+	else
+	{
 	/* local variable declaration */
 		int i;
 
@@ -19,4 +21,5 @@ void print_line(int n)
 			_putchar('_');
 		}
 		_putchar('\n');
+	}
 }

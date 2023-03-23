@@ -1,20 +1,20 @@
 #include "main.h"
 /**
- * print_diagonal - print diagonal line on the terminal
- * @n: the number of times to print the bent line symbol
- * Return: joined bent line forming diagonal line
+ * print_diagonal - print a diagonal line in the terminal
+ * @n: is the number of times to print the given symbol
+ * Return: joined symbols that form a diagonal line
  */
 void print_diagonal(int n)
 {
+	/* loval variable declaration */
+	int i, j;
+
 	if (n <= 0)
 	{
 		_putchar('\n');
 	}
 	else
 	{
-		/* local variable declaration */
-		int i, j;
-
 		for (i = 0; i < n; i++)
 		{
 			for (j = 0; j < n; j++)
@@ -30,6 +30,6 @@ void print_diagonal(int n)
 			}
 			_putchar('\n');
 		}
-		_putchar('\n');
 	}
+	_putchar('\n');
 }

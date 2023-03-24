@@ -6,21 +6,28 @@
  */
 void print_diagonal(int n)
 {
-	/* loval variable declaration */
-	int i, j;
-
 	if (n <= 0)
 	{
 		_putchar('\n');
-		return;
 	}
+	else
+	{
+		int i, j;
+
 		for (i = 0; i < n; i++)
 		{
 			for (j = 0; j < n; j++)
 			{
-				_putchar(' ');
+				if (j == i)
+				{
+					_putchar('\\');
+				}
+				else if (j < 1)
+				{
+					_putchar(' ');
+				}
+				_putchar('\n');
 			}
-			_putchar('\\');
-			_putchar('\n');
 		}
+	}
 }

@@ -3,14 +3,12 @@
  * _puts - Print a string,followed by new line
  * @str:String to be printed
  */
-void _puts(char *s)
+void _puts(char *str)
 {
-	while ((*s) != '\n')
+	while ((*str))
 	{
-		char c = (*s);
-
-		_putchar('c');
-		s++;
+		_putchar((*str));
+		str++;
 	}
 	_putchar('\n');
 }

@@ -2,8 +2,8 @@
 
 /**
  * _atoi - Convert a string to an integer
- * @s:String to be converted
- * Return: int converted from the string
+ * @s:Parameter string to be converted
+ * Return: int value from the string
  */
 int _atoi(char *s)
 {

@@ -1,21 +1,23 @@
 #include "main.h"
 /**
  * string_toupper - Change lowercase characters to uppercase
- * @str: string to be converted
+ * @n: string to be converted
  *
- * Return: uppercase characters
+ * Return: n
  */
-char *string_toupper(char *str)
+char *string_toupper(char *n)
 {
-	int i = 0;
+	int i;
 
-	while (str[i] != '\0')
+	i = 0;
+
+	while (n[i] != '\0')
 	{
-		if (str[i] > 'a' && str[i] <= 'z')
+		if (n[i] > 'a' && n[i] <= 'z')
 		{
-			str[i] = str[i] - 32;
+			n[i] = n[i] - 32;
 		}
 		i++;
 	}
-	return (str);
+	return (n);
 }
